@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prático do Módulo 1</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="formColors">
+      <ul>
+        <!prettier ignore>
+        <li>
+          <span>(R) Vermelho:</span>
+          <!-- prettier-ignore -->
+          <input
+            type="range" id="txtRedNumber" name="txtRedNumber" class="range" min="0" max="255" value="0"/>
+          <!-- prettier-ignore -->
+          <input type="text" id="txtRedNumberLabel" name="txtRedNumberLabel" class="text" value="0" disabled="true"/>
+        </li>
+        <li>
+          <span>(G) Verde:</span>
+          <!-- prettier-ignore -->
+          <input type="range" id="txtGreenNumber" name="txtGreenNumber" class="range" min="0" max="255"value="0"/>
+          <!-- prettier-ignore -->
+          <input type="text" id="txtGreenNumberLabel" name="txtGreenNumberLabel" class="text" value="0" disabled="true"/>
+        </li>
+        <li>
+          <span>(B) Blue:</span>
+          <!-- prettier-ignore -->
+          <input type="range" id="txtBlueNumber" name="txtBlueNumber" class="range" min="0" max="255" value="0"/>
+          <!-- prettier-ignore -->
+          <input type="text" id="txtBlueNumberLabel" name="txtBlueNumberLabel" class="text" value="0" disabled="true"/>
+        </li>
+      </ul>
+    </div>
+    <div class="formBackgoundColors">
+      <div class="colorBackground" id="colorBackground"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
