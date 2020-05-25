@@ -1,0 +1,44 @@
+.people-container-statistics {
+  height: 25em;
+}
+
+.people-container-found {
+  min-height: 25em;
+}
+
+.spanTitle {
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  vertical-align: middle;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border-radius: 50%;
+}
+
+.person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*Creates table with scrollable tbody*/
+tbody {
+  display: block;
+  height: 25em;
+  overflow: auto;
+}
+thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+table {
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+Check ✓
+
+(✓) Criar variáveis de estado da aplicação
+(✓) Criar eventListnener de load com função start
+(✓) Implementar start() com mapeamento de elementos 
+   do DOM e invocação à função fetchUsers
+(✓) Implementar fetchUsers() com async/await 
+   com busca em 'https://randomuser.me/api/?seed=javascript&results=100&nat=BR&noinfo' 
+   e transformação para obtenção de id, name, age e genre. 
+(✓) Implementar render(), com invocação a funções menores: 
+   filterPeople, renderPeopleFoundList, renderSummary.
+( ) Implementar filterPeople.
+( ) Implementar renderPeopleFoundList com template literals.
+( ) Implementar renderSummary com reduce.
+  ) Implementar formatação de valores numéricos
