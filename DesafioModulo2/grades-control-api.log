@@ -1,0 +1,44 @@
+2020-06-11T19:41:39.651Z [grades-control-api] info: Grades-Control-API Started!
+2020-06-11T19:41:50.986Z [grades-control-api] info: GET /grade
+2020-06-11T19:44:49.738Z [grades-control-api] info: Grades-Control-API Started!
+2020-06-11T19:45:23.185Z [grades-control-api] info: GET /grade/:id - {"id":47,"student":"Rodrigo Branas","subject":"03 - React","type":"Desafio","value":36,"timestamp":"2020-05-19T18:21:25.278Z"}
+2020-06-11T19:45:33.990Z [grades-control-api] info: GET /grade/:id - {"id":27,"student":"Roberto Achar","subject":"03 - React","type":"Fórum","value":10,"timestamp":"2020-05-19T18:21:25.140Z"}
+2020-06-11T19:46:40.093Z [grades-control-api] info: GET /grade
+2020-06-11T19:47:20.595Z [grades-control-api] info: GET /grade/:id - {"id":10,"student":"Loiane Groner","subject":"02 - Node","type":"Desafio","value":18,"timestamp":"2020-05-19T18:21:25.012Z"}
+2020-06-11T19:49:03.895Z [grades-control-api] info: POST /grade - {"id":49,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:49:19.827Z [grades-control-api] info: GET /grade
+2020-06-11T19:49:32.104Z [grades-control-api] info: GET /grade/:id - {"id":49,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:49:56.116Z [grades-control-api] info: DELETE /grade/:id - 49
+2020-06-11T19:50:00.944Z [grades-control-api] info: POST /grade/:id
+2020-06-11T19:50:08.089Z [grades-control-api] info: POST /grade - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:51:14.573Z [grades-control-api] info: GET /grade
+2020-06-11T19:51:28.347Z [grades-control-api] info: GET /grade/:id - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:52:03.612Z [grades-control-api] info: PUT /grade - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":8,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:52:09.563Z [grades-control-api] info: GET /grade/:id - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:52:11.744Z [grades-control-api] info: GET /grade/:id - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:52:12.777Z [grades-control-api] info: GET /grade/:id - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:52:13.469Z [grades-control-api] info: GET /grade/:id - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:52:18.874Z [grades-control-api] info: GET /grade
+2020-06-11T19:52:42.820Z [grades-control-api] info: PUT /grade - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":8,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:52:52.416Z [grades-control-api] info: GET /grade/:id - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:52:53.856Z [grades-control-api] info: GET /grade/:id - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:52:54.625Z [grades-control-api] info: GET /grade/:id - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:52:55.346Z [grades-control-api] info: GET /grade/:id - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:52:56.064Z [grades-control-api] info: GET /grade/:id - {"id":50,"student":"André Idalgo Matama","subject":"55 - Geometria","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:54:02.804Z [grades-control-api] info: Grades-Control-API Started!
+2020-06-11T19:54:10.968Z [grades-control-api] info: GET /grade
+2020-06-11T19:54:38.877Z [grades-control-api] info: POST /grade - {"id":51,"student":"André Idalgo Matama","subject":"50 - Geografia","type":"Prova","value":7,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:54:47.478Z [grades-control-api] info: GET /grade/:id - {"id":51,"student":"André Idalgo Matama","subject":"50 - Geografia","type":"Prova","value":7,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:55:24.429Z [grades-control-api] info: GET /grade/:id - {"id":51,"student":"André Idalgo Matama","subject":"50 - Geografia","type":"Prova","value":7,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:56:00.432Z [grades-control-api] info: PUT /grade - {"id":51,"student":"André Idalgo Matama","subject":"50 - Geografia","type":"Prova","value":7,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:56:07.624Z [grades-control-api] info: PUT /grade - {"id":51,"student":"André Idalgo Matama","subject":"50 - Geografia","type":"Prova","value":9,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:57:00.202Z [grades-control-api] info: PUT /grade - {"id":51,"student":"André Idalgo Matama","subject":"50 - Geografia","type":"Prova","value":6,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:58:44.890Z [grades-control-api] info: Grades-Control-API Started!
+2020-06-11T19:58:50.159Z [grades-control-api] info: GET /grade
+2020-06-11T19:58:58.029Z [grades-control-api] info: GET /grade/:id - {"id":51,"student":"André Idalgo Matama","subject":"50 - Geografia","type":"Prova","value":7,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:59:03.269Z [grades-control-api] info: PUT /grade - {"id":51,"student":"André Idalgo Matama","subject":"50 - Geografia","type":"Prova","value":6,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:59:25.202Z [grades-control-api] info: PUT /grade - {"id":51,"student":"André Idalgo Matamaqq","subject":"50 - Geografiaqq ","type":"Prova qq","value":4,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T19:59:30.900Z [grades-control-api] info: GET /grade/:id - {"id":51,"student":"André Idalgo Matamaqq","subject":"50 - Geografiaqq ","type":"Prova qq","value":4,"timestamp":"2020-06-11T18:21:25.140Z"}
+2020-06-11T20:01:49.661Z [grades-control-api] info: Grades-Control-API Started!
+2020-06-11T20:02:08.112Z [grades-control-api] error: POST /grade - Cannot read property '0' of undefined
+2020-06-11T20:02:16.868Z [grades-control-api] error: POST /grade - Cannot read property '0' of undefined

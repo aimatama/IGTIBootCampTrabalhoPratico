@@ -1,0 +1,11 @@
+2020-06-11T19:36:09.673Z [my-bank-api] info: API Started!
+2020-06-11T19:36:13.265Z [my-bank-api] info: GET /account
+2020-06-11T19:36:57.620Z [my-bank-api] info: API Started!
+2020-06-11T19:37:18.041Z [my-bank-api] info: GET /account
+2020-06-11T19:37:23.388Z [my-bank-api] info: GET /account/:id - {"id":2,"name":"Guilherme Assis","balance":200}
+2020-06-11T19:38:23.177Z [my-bank-api] info: API Started!
+2020-06-11T19:38:29.195Z [my-bank-api] info: GET /account
+2020-06-11T19:38:33.093Z [my-bank-api] info: POST /account/:id
+2020-06-11T19:38:36.034Z [my-bank-api] info: GET /account/:id - {"id":2,"name":"Guilherme Assis","balance":200}
+2020-06-11T19:38:39.568Z [my-bank-api] info: GET /account/:id - {"id":1,"name":"Marcelo Dias 2","balance":11}
+2020-06-11T19:38:43.542Z [my-bank-api] info: GET /account
