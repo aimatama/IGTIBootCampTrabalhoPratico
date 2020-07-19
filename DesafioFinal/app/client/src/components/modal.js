@@ -26,8 +26,6 @@ export default function ModalComponent({
     category,
     yearMonthDay,
     type,
-    typePositive = type === '+' ? true : false,
-    typeNegative = type === '-' ? true : false,
   } = selectedTransaction;
 
   const [descriptionInput, setDescriptionInput] = useState(
@@ -47,9 +45,6 @@ export default function ModalComponent({
   };
 
   const handleValue = (event) => {
-    //if (!Number(event.target.value)) {
-    //return;
-    //}
     setValueInput(event.target.value);
   };
 
@@ -130,14 +125,16 @@ export default function ModalComponent({
     onClose(null);
   };
 
-  if (
-    yearMonthDayInput.substring(3, 2) !== '/' &&
-    yearMonthDayInput.substring(3, 2) !== '/'
-  ) {
-    const year = yearMonthDayInput.substring(0, 4);
-    const month = yearMonthDayInput.substring(5, 7);
-    const day = yearMonthDayInput.substring(8, 10);
-    selectedTransaction.yearMonthDay = day + '/' + month + '/' + year;
+  if (yearMonthDayInput !== undefined && yearMonthDayInput !== '') {
+    if (
+      yearMonthDayInput.substring(3, 2) !== '/' &&
+      yearMonthDayInput.substring(3, 2) !== '/'
+    ) {
+      const year = yearMonthDayInput.substring(0, 4);
+      const month = yearMonthDayInput.substring(5, 7);
+      const day = yearMonthDayInput.substring(8, 10);
+      selectedTransaction.yearMonthDay = day + '/' + month + '/' + year;
+    }
   }
 
   return (
@@ -162,9 +159,8 @@ export default function ModalComponent({
                       name="group1"
                       type="radio"
                       id="txttypepositive"
-                      checked={typePositive}
+                      checked={typeInput === '+' ? true : false}
                       onClick={handleType}
-                      onChange={handleType}
                       value="+"
                     />
                     <span>Receita</span>
@@ -173,10 +169,9 @@ export default function ModalComponent({
                     <input
                       name="group1"
                       type="radio"
-                      checked={typeNegative}
+                      checked={typeInput === '-' ? true : false}
                       id="txttypenegative"
                       onClick={handleType}
-                      onChange={handleType}
                       value="-"
                     />
                     <span>Despesa</span>

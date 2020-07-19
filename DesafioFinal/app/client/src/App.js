@@ -101,6 +101,17 @@ export default function App() {
   };
 
   const handleNewTransactionClick = () => {
+    const transactionAdd = {
+      id: '',
+      description: '',
+      value: '',
+      category: '',
+      yearMonthDay: '',
+      type: '',
+      typePositive: false,
+      typeNegative: false,
+    };
+    setselectedTransaction(transactionAdd);
     setIsModalOpen(true);
   };
 
